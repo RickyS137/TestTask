@@ -14,6 +14,7 @@
     width: 88.5%;
     display: flex;
     justify-content: flex-end;
+    column-gap: 8px;
 
     & .updateUsers {
       height: 20px;
@@ -42,6 +43,13 @@
       flex-wrap: wrap;
       flex-direction: column;
       align-items: center;
+    }
+
+    & .head {
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 8px;
+      padding: 0px 35px;
     }
   }
 }
